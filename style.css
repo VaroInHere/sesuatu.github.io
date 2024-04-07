@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital@1&family=Dancing+Script:wght@700&family=Oswald:wght@200..700&display=swap');
+
+body {
+    font-size: 15pt;
+    background: url("bg.jpg");
+    background-size: 400px;
+}
+
+.lebran {
+  margin-top: 200px;
+  margin-left: 80px;
+  background: red;
+  width: 250px;
+  height: 250px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background: url("bgdiv.jpg");
+  background-size: 250px;
+  font-family: "Oswald", sans-serif;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  flex-direction: column;
+  color: #2D9322;
+}
+
+.ambil {
+  margin-top: -20px;
+}
+
+.isi {
+  margin-top: 10px;
+}
+
+.isi button {
+  background: none;
+  border: none;
+}
+
+.isi button:hover {
+  cursor: pointer;
+}
+
+.shake {
+  animation: shake 0.5s;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+
